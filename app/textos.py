@@ -224,7 +224,7 @@ volatilidade nos preços do petróleo:
 """
 
 texto_previsao_introdutorio = """
-teste
+
 
 
 
@@ -234,8 +234,17 @@ teste
 
 texto_previsao = """
 <div style="text-align: justify;">
-teste
 
+O mês de novembro de 2024 mostrou uma tendência de queda gradual no preço do barril de petróleo. 
+Iniciando em $82,63, o valor caiu consistentemente, atingindo \$73,52 em seu ponto mais baixo. 
+A análise da previsão sugere que essa queda está associada a uma menor demanda, 
+especialmente em regiões com expectativa de inverno mais ameno, 
+além de incertezas no mercado geradas por cortes de produção da OPEP+.
+
+Os gráficos reforçam essa estabilidade no declínio, mostrando variações diárias mínimas, geralmente em torno de 0,4%, 
+sem grandes oscilações. Esses dados indicam que, apesar da queda, o mercado não espera choques significativos, 
+mantendo-se dentro de um cenário previsível. No final do mês, sinais de recuperação, com leve alta nos preços, 
+apontam para expectativas de aumento da demanda nos próximos períodos e ajustes no equilíbrio entre oferta e demanda global.
 
 
 """
@@ -267,9 +276,24 @@ mas também o papel que ele desempenhará no fornecimento de energia mundial nas
 """
 
 
-texto_analise_parte3_introdutorio = """
+texto_final = """
+
+Este projeto faz parte do projeto Tech Challenge da Pós Tech Data Analytics FIAP e conta como nota da quarta fase da pós-graduação.
+O grupo que desenvolveu esse projeto é composto por:
+
+Aelton Pereira de Lacerda
+
+André Martins Pontes
+
+Arthur do Nascimento Siqueira
+
+Matheus Martins Matias Rodrigues
+
+Victor Campanha Barros
 
 
+O link do repositorio do github com todos os arquivos pode ser acessado clicando no simbolo do github no menu superior direito
+e no link abaixo : 
 
-
+https://github.com/victorcbarros/Analise_Petroleo_Brent
 """

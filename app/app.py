@@ -27,10 +27,11 @@ f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_ur
 unsafe_allow_html=True)
 st.markdown(textos.texto_analise_parte2, unsafe_allow_html=True)
 st.header('Modelo Preditivo 🤖')
-st.markdown(textos.texto_previsao_introdutorio, unsafe_allow_html=True)
 st.markdown(
 f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_url_parte3}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
 unsafe_allow_html=True)
 st.markdown(textos.texto_previsao, unsafe_allow_html=True)
 st.header('Conclusão 📝')
 st.markdown(textos.texto_conclusao, unsafe_allow_html=True)
+st.header('Referências')
+st.markdown(textos.texto_final, unsafe_allow_html=True)
