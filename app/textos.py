@@ -265,3 +265,11 @@ mas também o papel que ele desempenhará no fornecimento de energia mundial nas
 
 
 """
+
+
+texto_analise_parte3_introdutorio = """
+
+
+
+
+"""
