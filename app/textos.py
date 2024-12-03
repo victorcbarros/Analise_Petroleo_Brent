@@ -1,4 +1,4 @@
-texto_analise = """
+texto_introducao = """
 <div style="text-align: justify;">
 
 O preço do petróleo é um dos indicadores econômicos mais voláteis e
@@ -16,6 +16,50 @@ sobre os principais motivos para essas variações. Compreender essas
 influências é essencial para captar as tendências e possíveis desdobramentos
 futuros no mercado de petróleo.
 
+"""
+
+texto_extracao = """
+<div style="text-align: justify;">
+
+Na etapa de extração dos dados do projeto, utilizamos uma API para obter as informações do preço do petróleo Brent. 
+Esse processo foi realizado com o uso de requisições HTTP em Python.
+Após a coleta dos dados, aplicamos tratamento e limpeza utilizando a biblioteca Pandas, 
+garantindo que as informações estivessem no formato adequado para análise.
+
+Em seguida, construímos um modelo preditivo de séries temporais utilizando TensorFlow/Keras para a modelagem e Scikit-learn para
+o processo de pré-processamento e avaliação do modelo. Com os dados tratados e o modelo ajustado, 
+geramos gráficos para visualização da evolução do preço do petróleo ao longo dos anos, além de realizar análises de tendências.
+
+Para apresentar os resultados de forma interativa, construímos um dashboard em Power BI, 
+integrando os gráficos gerados com o modelo preditivo. Esse dashboard permite uma análise visual e dinâmica das variações
+de preços do petróleo ao longo do tempo.
+
+Por fim, fizemos o deploy do MVP (Minimum Viable Product) utilizando GitHub para versionamento de código e Streamlit
+para a criação de uma interface interativa. Isso proporcionou uma solução acessível e escalável para visualizar as previsões 
+e as análises em tempo real.
+
+"""
+
+
+texto_analise_parte1_introdutorio = """
+<div style="text-align: justify;">
+
+Nesta seção, apresentaremos um dashboard interativo que oferece uma análise abrangente da evolução histórica do preço do petróleo
+ao longo dos anos, permitindo uma visualização clara das principais tendências e variações no mercado.
+Faremos uma análise detalhada dos períodos de alta e baixa, destacando momentos-chave que moldaram a trajetória dos preços,
+como crises econômicas, conflitos geopolíticos e mudanças nas políticas energéticas globais.
+
+Além disso, discutiremos o impacto de fatores externos, como a volatilidade na oferta e demanda,
+avanços tecnológicos no setor energético, e a transição para fontes de energia renováveis,
+que têm influenciado diretamente o comportamento do mercado petrolífero. Com essa abordagem, 
+esperamos proporcionar uma visão estratégica e informada sobre como esses elementos interagem e afetam o setor ao longo do tempo,
+auxiliando na compreensão das perspectivas futuras e na tomada de decisões mais assertivas.
+
+"""
+
+
+texto_analise_parte1 = """
+<div style="text-align: justify;">
 
 ### 1. Crise Financeira Global (2008-2009)
 
@@ -95,6 +139,20 @@ futuros no mercado de petróleo.
   sobre a oferta global e fizeram com que os países buscassem alternativas
   para substituir a energia russa.
 
+"""
+
+texto_analise_parte2_introdutorio = """
+
+
+
+
+"""
+
+
+
+texto_analise_parte2 = """
+<div style="text-align: justify;">
+
 ## Fatores que Influenciam a Volatilidade do Preço do Petróleo
 
 O preço do petróleo é amplamente influenciado por uma combinação complexa
@@ -163,19 +221,47 @@ volatilidade nos preços do petróleo:
   fornecimento, podem afetar a produção ou o transporte de petróleo,
   causando mudanças inesperadas nos preços.
 
-## Conclusão
+"""
 
-A volatilidade do preço do petróleo é um reflexo da interação entre
-fatores políticos, econômicos e tecnológicos. Embora as forças de oferta
-e demanda sejam fundamentais, os eventos globais e as decisões políticas
-são frequentemente os maiores responsáveis pelas flutuações de preços.
-Entender esses fatores é crucial não apenas para os investidores, mas
-também para as economias que dependem do petróleo como uma fonte
-primária de energia. O futuro do mercado de petróleo dependerá de
-como essas forças se desenvolverão nos próximos anos, e de como
-novos desafios, como a transição para energias renováveis, influenciarão
-a dinâmica do mercado.
+texto_previsao_introdutorio = """
+teste
 
+
+
+"""
+
+
+
+texto_previsao = """
+<div style="text-align: justify;">
+teste
+
+
+
+"""
+
+
+
+texto_conclusao = """
+<div style="text-align: justify;">
+
+A volatilidade do preço do petróleo é um reflexo da complexa interação entre fatores políticos, 
+econômicos, sociais e tecnológicos. Embora a oferta e a demanda sejam as forças básicas que movem o mercado,
+eventos globais, como crises geopolíticas, pandemias e mudanças nas políticas de grandes países produtores, 
+frequentemente desempenham um papel ainda mais significativo nas oscilações dos preços.
+
+Essas flutuações impactam diretamente não apenas os investidores e as empresas do setor, 
+mas também a economia global, afetando desde o custo de vida até a estabilidade financeira
+de nações cuja economia depende fortemente da exportação ou importação de petróleo. 
+Além disso, as mudanças climáticas e a pressão por uma transição energética sustentável colocam desafios adicionais ao setor, 
+exigindo uma adaptação às novas demandas por fontes de energia mais limpas e menos dependentes de combustíveis fósseis.
+
+Entender esses fatores é fundamental para antecipar tendências e desenvolver estratégias eficazes 
+em um cenário cada vez mais dinâmico. O futuro do mercado de petróleo dependerá de como esses elementos
+se alinharão nos próximos anos, especialmente diante do crescimento das energias renováveis, 
+do avanço tecnológico em energias limpas e da necessidade global de reduzir as emissões de carbono. 
+O equilíbrio entre esses fatores definirá não apenas a trajetória dos preços do petróleo,
+mas também o papel que ele desempenhará no fornecimento de energia mundial nas próximas décadas.
 
 
 """

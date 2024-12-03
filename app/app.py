@@ -1,22 +1,36 @@
 import streamlit as st
-from textos import texto_analise
+import textos
+
+power_bi_url_parte1 = "https://app.powerbi.com/view?r=eyJrIjoiZTZlNmFhMWMtY2I4Zi00ZmRhLTllMTItMzk2ZGI2Y2IzM2EzIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
+power_bi_url_parte2 = "https://app.powerbi.com/view?r=eyJrIjoiMDVjNWQwM2EtZDljOS00NjJmLTkzODktYjc0NDhhZjIzODUyIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
+power_bi_url_parte3 = "https://app.powerbi.com/view?r=eyJrIjoiMmZiYjcxMGEtNmNjOC00ODU2LWEwNGMtMTRiMmUyNjhmOThkIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
 
 st.set_page_config(layout='wide')
 
-st.title('Tech Challenge: Previsão e Insights de Preços do Petróleo')
-
-tabs = st.tabs(['Introdução', 'Análise'])
+st.title('Tech Challenge: Previsão e Insights de Preços do Petróleo🛢️⛽')
 
 
-with tabs[0]:
-    st.header('Introdução')
-    st.markdown(texto_analise, unsafe_allow_html=True)
-
-with tabs[1]:
-    st.header('Relatorio PowerBI')
-    #st.write('Texto sobre o petroleo')
-    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiNmRkNWE0NDEtNzU5NS00MjUyLWI1ZjAtNmI2NTYzYjNiNDU5IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
-    st.markdown(
-    f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_url}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
-    unsafe_allow_html=True)
-
+st.header('Introdução 🌍')
+st.markdown(textos.texto_introducao, unsafe_allow_html=True)
+st.image('images/image2.webp', use_container_width=True)
+st.header('Extração dos Dados 🛠️')
+st.markdown(textos.texto_extracao, unsafe_allow_html=True)
+st.image('images\extracao.png', use_container_width=True)
+st.header('Dashboard e Insights 📊')
+st.markdown(textos.texto_analise_parte1_introdutorio, unsafe_allow_html=True)
+st.markdown(
+f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_url_parte1}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
+unsafe_allow_html=True)
+st.markdown(textos.texto_analise_parte1, unsafe_allow_html=True)
+st.markdown(
+f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_url_parte2}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
+unsafe_allow_html=True)
+st.markdown(textos.texto_analise_parte2, unsafe_allow_html=True)
+st.header('Modelo Preditivo 🤖')
+st.markdown(textos.texto_previsao_introdutorio, unsafe_allow_html=True)
+st.markdown(
+f"<div style='display: flex; justify-content: center;'><iframe src='{power_bi_url_parte3}' width='2000' height='1000' frameborder='0' allowFullScreen='true'></iframe></div>",
+unsafe_allow_html=True)
+st.markdown(textos.texto_previsao, unsafe_allow_html=True)
+st.header('Conclusão 📝')
+st.markdown(textos.texto_conclusao, unsafe_allow_html=True)
