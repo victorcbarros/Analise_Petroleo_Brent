@@ -15,7 +15,7 @@ st.markdown(textos.texto_introducao, unsafe_allow_html=True)
 st.image('images/image2.webp', use_container_width=True)
 st.header('Extração dos Dados 🛠️')
 st.markdown(textos.texto_extracao, unsafe_allow_html=True)
-st.image('images\extracao.png', use_container_width=True)
+st.image('images/extracao.png', use_container_width=True)
 st.header('Dashboard e Insights 📊')
 st.markdown(textos.texto_analise_parte1_introdutorio, unsafe_allow_html=True)
 st.markdown(
