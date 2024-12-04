@@ -41,7 +41,7 @@ Os dados foram extraídos via API, tratados e limpos para garantir sua qualidade
 
 **Etapas:**  
 1. Extração dos dados via API  
-2. Limpeza e tratamento utilizando Pandas  
+2. Limpeza e tratamento utilizando Pandas e PowerBI
 3. Modelagem preditiva com TensorFlow/Keras  
 4. Dashboard Interativo com PowerBI 
 5. Deploy do MVP com Streamlit 
